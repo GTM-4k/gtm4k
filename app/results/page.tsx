@@ -22,3 +22,13 @@ export default function ResultsPage() {
     </main>
   );
 }
+export default function ResultsPage() {
+  return (
+    <main className="min-h-screen p-12">
+      <h1 className="text-5xl font-bold">Results</h1>
+      <p>$14M Net-New ARR Generated</p>
+      <p>$22M Enterprise Churn Prevented</p>
+      <p>$0 → $5M Revenue Built</p>
+    </main>
+  );
+}
